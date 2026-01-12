@@ -1,5 +1,4 @@
 import PrintButton from "./components/PrintButton";
-import WebGLBanner from "./components/WebGLBanner";
 
 const summary =
   "AI Solutions Architect and Creative Technologist with 15+ years of experience evolving from QA engineering and project management into large-scale AI and automation systems. Proven track record of shipping 120+ production GenAI applications, leading AI adoption at scale, and delivering measurable business impact including $1M+ in cost savings and 20,000+ hours reclaimed annually through automation. Expert at bridging experimental AI work with secure, scalable production systems using LLMs, RAG architectures, and agentic workflows.";
@@ -140,10 +139,6 @@ export default function Home() {
         </header>
 
         <div className="rule" aria-hidden="true" />
-
-        <div className="webgl-strip" aria-hidden="true">
-          <WebGLBanner />
-        </div>
 
         <h1 className="title">AI Solutions Architect</h1>
 
