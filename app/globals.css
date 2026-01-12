@@ -89,18 +89,6 @@ button {
   margin: 12px 0;
 }
 
-.webgl-strip {
-  height: 70px;
-  margin: 8px 0 4px;
-  border: 1px solid var(--line);
-}
-
-.webgl-canvas {
-  width: 100%;
-  height: 100%;
-  display: block;
-}
-
 .section {
   margin-top: 18px;
   padding-top: 16px;
