@@ -180,6 +180,39 @@ button {
   font-size: 14px;
 }
 
+.cert-list {
+  margin: 0;
+  padding-left: 18px;
+  font-size: 14px;
+  columns: 2;
+  column-gap: 32px;
+}
+
+.cert-list li {
+  break-inside: avoid;
+  padding: 2px 0;
+}
+
+.cert-link {
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-color: var(--muted);
+  text-underline-offset: 2px;
+  transition: color 0.15s ease;
+}
+
+.cert-link:hover {
+  color: #0057b7;
+  text-decoration-color: #0057b7;
+}
+
+@media print {
+  .cert-link {
+    text-decoration: none;
+    color: var(--ink);
+  }
+}
+
 @media (max-width: 720px) {
   .resume {
     padding: 24px 18px 32px;

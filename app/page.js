@@ -6,6 +6,22 @@ const summary =
 const contactLine =
   "Phone +1 437 243 3693 | Email: alex@seshwithfriends.org | LinkedIn: linkedin.com/in/amorac/ | Website: eloruga.com | GitHub: github.com/Oruga420";
 
+const certifications = [
+  { name: "AI Fundamentals with Claude", url: "https://www.coursera.org/account/accomplishments/verify/MM7BOCYYWE1C" },
+  { name: "Claude Code in Action", url: "https://www.coursera.org/account/accomplishments/verify/LVN8I6INAAAW" },
+  { name: "Model Context Protocol: Advanced Topics", url: "https://www.coursera.org/account/accomplishments/verify/OWFJL0ZOCH10" },
+  { name: "Introduction to Model Context Protocol", url: "https://www.coursera.org/account/accomplishments/verify/7U2YK8V9HMHR" },
+  { name: "Gen AI Agents: Transform Your Organization", url: "https://www.coursera.org/account/accomplishments/verify/F8W4IP5260ZK" },
+  { name: "Discover the Art of Prompting", url: "https://www.coursera.org/account/accomplishments/verify/L8M9M3AP79F6" },
+  { name: "Maximize Productivity With AI Tools", url: "https://www.coursera.org/account/accomplishments/verify/H37I9548PY8Z" },
+  { name: "Stay Ahead of the AI Curve", url: "https://www.coursera.org/account/accomplishments/verify/PAJNJ8TCZIS3" },
+  { name: "Use AI Responsibly", url: "https://www.coursera.org/account/accomplishments/verify/S12B4VHKTRCM" },
+  { name: "Introduction to Deep Learning & Neural Networks with Keras", url: "https://www.coursera.org/account/accomplishments/verify/4C5JZLRFNSKG" },
+  { name: "Machine Learning with Python", url: "https://www.coursera.org/account/accomplishments/verify/A4815ODPD4J5" },
+  { name: "Introduction to AI", url: "https://www.coursera.org/account/accomplishments/verify/GGS5J0DT3PYA" },
+  { name: "Google AI Essentials", url: "https://www.credly.com/badges/c64f7e5e-208d-4f2b-9aa5-aaf00181724f/linked_in_profile" },
+];
+
 const skillGroups = [
   {
     title: "Artificial Intelligence & Automation",
@@ -203,6 +219,24 @@ export default function Home() {
             Ingenieria en Sistemas Universidad Marista de Merida, Mexico 2004 -
             2007
           </div>
+        </section>
+
+        <section className="section">
+          <h2 className="section-title">Certifications</h2>
+          <ul className="cert-list">
+            {certifications.map((cert) => (
+              <li key={cert.name}>
+                <a
+                  className="cert-link"
+                  href={cert.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {cert.name}
+                </a>
+              </li>
+            ))}
+          </ul>
         </section>
       </article>
     </main>
