@@ -7,6 +7,7 @@ const contactLine =
   "Phone +1 437 243 3693 | Email: alex@seshwithfriends.org | LinkedIn: linkedin.com/in/amorac/ | Website: eloruga.com | GitHub: github.com/Oruga420";
 
 const certifications = [
+  { name: "Building AI Agents with Snowflake", url: "https://www.coursera.org/account/accomplishments/verify/O2MRUJXOB5MP" },
   { name: "Building Generative AI Apps to Talk to Your Data", url: "https://www.coursera.org/account/accomplishments/verify/R1LGEZIPKQ7C" },
   { name: "Introduction to Generative AI with Snowflake", url: "https://www.coursera.org/account/accomplishments/verify/JKFOEFAUGCB4" },
   { name: "Introduction to Neural Networks and PyTorch", url: "https://www.coursera.org/account/accomplishments/verify/NRJ3Y3VJQTLB" },
