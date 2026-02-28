@@ -7,6 +7,7 @@ const contactLine =
   "Phone +1 437 243 3693 | Email: alex@seshwithfriends.org | LinkedIn: linkedin.com/in/amorac/ | Website: eloruga.com | GitHub: github.com/Oruga420";
 
 const certifications = [
+  { name: "Real-World AI for Everyone", url: "https://www.coursera.org/account/accomplishments/specialization/YIIMAFI7SXEZ" },
   { name: "AI Automation with Claude", url: "https://www.coursera.org/account/accomplishments/verify/V9OWZ3DYPU1C" },
   { name: "AI Collaboration with Claude", url: "https://www.coursera.org/account/accomplishments/verify/WAKHN8NV5KAM" },
   { name: "AWS Generative AI and AI Agents with Amazon Bedrock", url: "https://www.coursera.org/account/accomplishments/professional-cert/43EFUJF5ARC9" },
