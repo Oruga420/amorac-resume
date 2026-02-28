@@ -8,6 +8,8 @@ const contactLine =
 
 const certifications = [
   { name: "AI Automation with Claude", url: "https://www.coursera.org/account/accomplishments/verify/V9OWZ3DYPU1C" },
+  { name: "AI Collaboration with Claude", url: "https://www.coursera.org/account/accomplishments/verify/WAKHN8NV5KAM" },
+  { name: "AWS Generative AI and AI Agents with Amazon Bedrock", url: "https://www.coursera.org/account/accomplishments/professional-cert/43EFUJF5ARC9" },
   { name: "Getting Started with AWS Generative AI for Developers", url: "https://www.coursera.org/account/accomplishments/verify/YSSCUISHWGUM" },
   { name: "Generative AI Applications with Amazon Bedrock", url: "https://www.coursera.org/account/accomplishments/verify/YISUIK4L1HAU" },
   { name: "Building AI Agents with Snowflake", url: "https://www.coursera.org/account/accomplishments/verify/O2MRUJXOB5MP" },
