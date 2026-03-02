@@ -7,6 +7,7 @@ const contactLine =
   "Phone +1 437 243 3693 | Email: alex@seshwithfriends.org | LinkedIn: linkedin.com/in/amorac/ | Website: eloruga.com | GitHub: github.com/Oruga420";
 
 const certifications = [
+  { name: "Claude Code in Action", url: "https://verify.skilljar.com/c/agr239nxhyg7" },
   { name: "Google AI", url: "https://www.coursera.org/account/accomplishments/specialization/QC4G7ZD5283I" },
   { name: "AI for Content Creation by Google", url: "https://www.coursera.org/account/accomplishments/verify/KH7ZLDJDT6Z3" },
   { name: "AI for App Building by Google", url: "https://www.coursera.org/account/accomplishments/verify/Y3X1A9416TK3" },
