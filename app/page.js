@@ -8,7 +8,7 @@ const contactLine =
 
 const certifications = [
   { name: "Model Context Protocol: Advanced Topics by Anthropic", url: "https://verify.skilljar.com/c/da4b7vngjwce" },
-  { name: "Claude Code in Action", url: "https://verify.skilljar.com/c/agr239nxhyg7" },
+  { name: "Claude Code in Action by Anthropic", url: "https://verify.skilljar.com/c/agr239nxhyg7" },
   { name: "Google AI", url: "https://www.coursera.org/account/accomplishments/specialization/QC4G7ZD5283I" },
   { name: "AI for Content Creation by Google", url: "https://www.coursera.org/account/accomplishments/verify/KH7ZLDJDT6Z3" },
   { name: "AI for App Building by Google", url: "https://www.coursera.org/account/accomplishments/verify/Y3X1A9416TK3" },
