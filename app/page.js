@@ -7,6 +7,8 @@ const contactLine =
   "Phone +1 437 243 3693 | Email: alex@seshwithfriends.org | LinkedIn: linkedin.com/in/amorac/ | Website: eloruga.com | GitHub: github.com/Oruga420";
 
 const certifications = [
+  { name: "AI for Brainstorming and Planning by Google", url: "https://www.coursera.org/account/accomplishments/verify/B5HRRAAR0HY8" },
+  { name: "AI for Research and Insights by Google", url: "https://www.coursera.org/account/accomplishments/verify/QZB94QHRUV0L" },
   { name: "AI Fundamentals by Google", url: "https://www.coursera.org/account/accomplishments/verify/BWQDY2ROMRP2" },
   { name: "GenAI in Social Media Marketing by Meta", url: "https://www.coursera.org/account/accomplishments/verify/ZDQ3T6R18E3R" },
   { name: "GenAI in Data Analytics by Meta", url: "https://www.coursera.org/account/accomplishments/verify/WA5ONIOQ41A2" },
