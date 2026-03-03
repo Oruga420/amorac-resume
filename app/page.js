@@ -7,6 +7,7 @@ const contactLine =
   "Phone +1 437 243 3693 | Email: alex@seshwithfriends.org | LinkedIn: linkedin.com/in/amorac/ | Website: eloruga.com | GitHub: github.com/Oruga420";
 
 const certifications = [
+  { name: "Claude with Amazon Bedrock by Anthropic", url: "https://verify.skilljar.com/c/3jwonmi8c9vp" },
   { name: "Model Context Protocol: Advanced Topics by Anthropic", url: "https://verify.skilljar.com/c/da4b7vngjwce" },
   { name: "Claude Code in Action by Anthropic", url: "https://verify.skilljar.com/c/agr239nxhyg7" },
   { name: "Google AI", url: "https://www.coursera.org/account/accomplishments/specialization/QC4G7ZD5283I" },
