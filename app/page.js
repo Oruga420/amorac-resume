@@ -7,7 +7,7 @@ const contactLine =
   "Phone +1 437 243 3693 | Email: alex@seshwithfriends.org | LinkedIn: linkedin.com/in/amorac/ | Website: eloruga.com | GitHub: github.com/Oruga420";
 
 const certifications = [
-  { name: "Model Context Protocol: Advanced Topics", url: "https://verify.skilljar.com/c/4yt4ts5nw3x6" },
+  { name: "Model Context Protocol: Advanced Topics by Anthropic", url: "https://verify.skilljar.com/c/4yt4ts5nw3x6" },
   { name: "Claude with Amazon Bedrock by Anthropic", url: "https://verify.skilljar.com/c/3jwonmi8c9vp" },
   { name: "Model Context Protocol: Advanced Topics by Anthropic", url: "https://verify.skilljar.com/c/da4b7vngjwce" },
   { name: "Claude Code in Action by Anthropic", url: "https://verify.skilljar.com/c/agr239nxhyg7" },
@@ -252,7 +252,7 @@ export default function Home() {
           <h2 className="section-title">Certifications</h2>
           <ul className="cert-list">
             {certifications.map((cert) => (
-              <li key={cert.name}>
+              <li key={cert.url}>
                 <a
                   className="cert-link"
                   href={cert.url}
