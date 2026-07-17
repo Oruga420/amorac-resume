@@ -10,7 +10,6 @@ const certifications = [
   { name: "Building with the Claude API by Anthropic", url: "https://verify.skilljar.com/c/i7afkiqzynjg" },
   { name: "Model Context Protocol: Advanced Topics by Anthropic", url: "https://verify.skilljar.com/c/4yt4ts5nw3x6" },
   { name: "Claude with Amazon Bedrock by Anthropic", url: "https://verify.skilljar.com/c/3jwonmi8c9vp" },
-  { name: "Model Context Protocol: Advanced Topics by Anthropic", url: "https://verify.skilljar.com/c/da4b7vngjwce" },
   { name: "Claude Code in Action by Anthropic", url: "https://verify.skilljar.com/c/agr239nxhyg7" },
   { name: "AI Fluency Capabilities and Limitations by Anthropic", url: "https://verify.skilljar.com/c/ccgc3utersyh" },
   { name: "Introduction to agent skills by Anthropic", url: "https://verify.skilljar.com/c/fegw3ejkpeey" },
