@@ -1,7 +1,7 @@
 import PrintButton from "./components/PrintButton";
 
 const summary =
-  "AI Solutions Architect and Creative Technologist with 15+ years of experience evolving from QA engineering and project management into large-scale AI and automation systems. Proven track record of shipping 120+ production GenAI applications, leading AI adoption at scale, and delivering measurable business impact including $1M+ in cost savings and 20,000+ hours reclaimed annually through automation. Expert at bridging experimental AI work with secure, scalable production systems using LLMs, RAG architectures, and agentic workflows.";
+  "AI Solutions Architect and Creative Technologist with 15+ years of experience evolving from QA engineering and project management into large-scale AI and automation systems. Proven track record of shipping 120+ production GenAI applications, leading AI adoption at scale, and delivering measurable business impact including $1.7M+ in cost savings and 60,000+ hours reclaimed annually through automation. Expert at bridging experimental AI work with secure, scalable production systems using LLMs, RAG architectures, and agentic workflows.";
 
 const contactLine =
   "Phone +1 437 243 3693 | Email: alex@seshwithfriends.org | LinkedIn: linkedin.com/in/amorac/ | Website: eloruga.com | GitHub: github.com/Oruga420";
@@ -96,7 +96,7 @@ const experiences = [
     role: "AI Solutions Architect (Contract)",
     date: "Feb 2025 - Nov 2025",
     bullets: [
-      "Delivered $1M+ in operational savings by designing and deploying agentic workflows and custom MCP tools that replaced manual processes.",
+      "Delivered $1.7M+ in operational savings by designing and deploying agentic workflows and custom MCP tools that replaced manual processes.",
       "Increased internal AI adoption from 47% to 97% through secure, scalable GenAI implementations embedded into daily operations.",
       "Architected and productionized a multi-model AI stack using OpenAI, Anthropic, and Gemini, including live RAG integrations and governance controls to safely move prototypes into production.",
     ],
