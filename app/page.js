@@ -1,10 +1,22 @@
 import PrintButton from "./components/PrintButton";
 
 const summary =
-  "AI Solutions Architect and Creative Technologist with 15+ years of experience evolving from QA engineering and project management into large-scale AI and automation systems. Proven track record of shipping 120+ production GenAI applications, leading AI adoption at scale, and delivering measurable business impact including $1.7M+ in cost savings and 60,000+ hours reclaimed annually through automation. Expert at bridging experimental AI work with secure, scalable production systems using LLMs, RAG architectures, and agentic workflows.";
+  "FDE Specialist (Forward Deployed Engineering) and Creative Technologist with 15+ years of experience evolving from QA engineering and project management into enterprise-scale agentic AI systems. Embeds with business teams to turn ambiguous intent, and even research whitepapers, into production technology: agent-operated browser consoles built on WebMCP, voice-driven agents, universal API connectors, and secure memory systems that keep agents in context. Proven track record of shipping 120+ production GenAI applications, leading AI adoption at scale, and delivering $2.1M+ in cost savings and 80,000+ hours reclaimed annually through automation. Expert at bridging experimental AI work with secure, scalable production systems using LLMs, RAG architectures, MCP, and multi-agent workflows.";
 
-const contactLine =
-  "Phone +1 437 243 3693 | Email: alex@seshwithfriends.org | LinkedIn: linkedin.com/in/amorac/ | Website: eloruga.com | GitHub: github.com/Oruga420";
+const impactStats = [
+  { value: "$2.1M+", label: "Cost savings delivered" },
+  { value: "80,000+", label: "Hours reclaimed annually" },
+  { value: "120+", label: "Production GenAI apps shipped" },
+  { value: "47% → 97%", label: "Internal AI adoption" },
+];
+
+const contactItems = [
+  { label: "+1 437 243 3693", href: "tel:+14372433693" },
+  { label: "alex@seshwithfriends.org", href: "mailto:alex@seshwithfriends.org" },
+  { label: "linkedin.com/in/amorac", href: "https://linkedin.com/in/amorac/" },
+  { label: "eloruga.com", href: "https://eloruga.com" },
+  { label: "github.com/Oruga420", href: "https://github.com/Oruga420" },
+];
 
 const certifications = [
   { name: "Building with the Claude API by Anthropic", url: "https://verify.skilljar.com/c/i7afkiqzynjg" },
@@ -49,14 +61,60 @@ const certifications = [
   { name: "Google AI Essentials", url: "https://www.credly.com/badges/c64f7e5e-208d-4f2b-9aa5-aaf00181724f/linked_in_profile" },
 ];
 
+const ndaBuilds = [
+  {
+    title: "Agentic Central Console",
+    detail:
+      "Architected an enterprise command center where AI agents operate the web: built on WebMCP to manage browsing, navigation, and in-app actions across business applications, turning every browser session into a governed, agent-operable workspace.",
+  },
+  {
+    title: "Universal Agentic API Connector",
+    detail:
+      "Built a single universal connector that lets any agent discover, authenticate against, and call internal and third-party APIs through one standardized interface, collapsing per-integration engineering into configuration.",
+  },
+  {
+    title: "Voice-Controlled Browser Agents",
+    detail:
+      "Deployed voice agents that drive browser navigation and application functionality hands-free, translating natural speech into real-time, multi-step actions inside web apps.",
+  },
+  {
+    title: "Enterprise System Agent",
+    detail:
+      "Built a company-wide system agent connected to, and grounded in, knowledge of the entire organization: assigning tasks, creating and routing tickets, and driving follow-ups automatically. The personal AI assistant experience, re-engineered for the enterprise.",
+  },
+  {
+    title: "360° Cross-Platform Agents",
+    detail:
+      "Engineered agents that integrate CRMs, chat platforms, and delivery tools into a live 360° view, giving stakeholders real-time project status on demand instead of waiting for the daily stand-up or weekly sync.",
+  },
+  {
+    title: "Agent-Powered Sales Enablement",
+    detail:
+      "Equipped sales teams with agent-built presentations generated on demand with up-to-the-minute account, pipeline, and project data, so every pitch runs on live information.",
+  },
+  {
+    title: "Custom Agent Memory System",
+    detail:
+      "Designed a proprietary memory architecture that gives agents persistent context with zero context loss across sessions, while enforcing per-user security and access isolation inside the memory layer.",
+  },
+  {
+    title: "Whitepaper-to-Production Engineering",
+    detail:
+      "Translates research whitepapers and emerging AI concepts into tangible, production-grade technology, taking ideas from paper to working product.",
+  },
+];
+
 const skillGroups = [
   {
     title: "Artificial Intelligence & Automation",
     items: [
       "Generative AI (LLMs)",
-      "Agentic Workflows",
+      "Agentic Workflows & Multi-Agent Systems",
       "Retrieval-Augmented Generation (RAG)",
       "MCP Tools & AI Orchestration",
+      "WebMCP & Browser Agents",
+      "Voice Agents",
+      "Agent Memory & Context Engineering",
     ],
   },
   {
@@ -72,7 +130,7 @@ const skillGroups = [
   },
   {
     title: "Technical & Leadership",
-    items: ["Agile / Scrum", "Project Management"],
+    items: ["Forward Deployed Engineering", "Agile / Scrum", "Project Management"],
   },
 ];
 
@@ -80,7 +138,7 @@ const experiences = [
   {
     company: "Sesh | AI Solutions",
     location: "Toronto, Ontario",
-    role: "AI Solutions Architect",
+    role: "FDE Specialist",
     date: "Nov 2021 - Present",
     bullets: [
       "Founded and led an AI consultancy delivering 120+ GenAI applications and 90+ AI chatbots for 30+ clients across multiple industries.",
@@ -177,19 +235,59 @@ export default function Home() {
 
         <header className="header">
           <div className="name">Alejandro de la Mora</div>
-          <div className="contact-line">Toronto, Ontario, Canada.</div>
-          <div className="contact-line">{contactLine}</div>
+          <div className="contact-line">Toronto, Ontario, Canada</div>
+          <ul className="contact-list">
+            {contactItems.map((item) => (
+              <li key={item.href}>
+                <a
+                  href={item.href}
+                  {...(item.href.startsWith("http")
+                    ? { target: "_blank", rel: "noopener noreferrer" }
+                    : {})}
+                >
+                  {item.label}
+                </a>
+              </li>
+            ))}
+          </ul>
         </header>
 
-        <div className="rule" aria-hidden="true" />
-
-        <h1 className="title">AI Solutions Architect</h1>
-
-        <div className="rule" aria-hidden="true" />
+        <h1 className="title">
+          <span>FDE Specialist</span>
+        </h1>
 
         <section className="section">
           <h2 className="section-title">Professional Summary</h2>
           <p className="summary">{summary}</p>
+          <dl className="impact-grid">
+            {impactStats.map((stat) => (
+              <div className="impact-item" key={stat.label}>
+                <dt className="impact-label">{stat.label}</dt>
+                <dd className="impact-value">{stat.value}</dd>
+              </div>
+            ))}
+          </dl>
+        </section>
+
+        <section className="section">
+          <h2 className="section-title">NDA Build Technology</h2>
+          <p className="section-note">
+            Proprietary enterprise AI platforms architected and shipped under
+            NDA. Client and product names withheld.
+          </p>
+          <ol className="nda-grid">
+            {ndaBuilds.map((build, index) => (
+              <li className="nda-card" key={build.title}>
+                <div className="nda-card-head">
+                  <h3 className="nda-title">{build.title}</h3>
+                  <span className="nda-index" aria-hidden="true">
+                    {String(index + 1).padStart(2, "0")}
+                  </span>
+                </div>
+                <p className="nda-detail">{build.detail}</p>
+              </li>
+            ))}
+          </ol>
         </section>
 
         <section className="section">
@@ -198,7 +296,9 @@ export default function Home() {
             <tbody>
               {skillGroups.map((group) => (
                 <tr key={group.title}>
-                  <td className="skills-group">{group.title}</td>
+                  <th scope="row" className="skills-group">
+                    {group.title}
+                  </th>
                   <td>
                     <ul className="skills-list">
                       {group.items.map((item) => (
@@ -243,8 +343,11 @@ export default function Home() {
         <section className="section">
           <h2 className="section-title">Education</h2>
           <div className="education-item">
-            Ingenieria en Sistemas Universidad Marista de Merida, Mexico 2004 -
-            2007
+            <div className="experience-top">
+              <div className="company">Ingenieria en Sistemas</div>
+              <div className="date-range">2004 - 2007</div>
+            </div>
+            <div className="role">Universidad Marista de Merida, Mexico</div>
           </div>
         </section>
 

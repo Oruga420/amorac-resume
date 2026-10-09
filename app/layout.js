@@ -10,12 +10,13 @@ const serif = Source_Serif_4({
 const sans = Source_Sans_3({
   subsets: ["latin"],
   variable: "--font-sans",
-  weight: ["400", "600"],
+  weight: ["400", "600", "700"],
 });
 
 export const metadata = {
-  title: "Alejandro de la Mora | AI Solutions Architect",
-  description: "Resume for Alejandro de la Mora, AI Solutions Architect.",
+  title: "Alejandro de la Mora | FDE Specialist",
+  description:
+    "Resume for Alejandro de la Mora, FDE Specialist building enterprise agentic AI systems.",
 };
 
 export default function RootLayout({ children }) {
